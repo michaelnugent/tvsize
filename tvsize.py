@@ -18,9 +18,9 @@ def main(ns):
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-t', default=float(16.0), action='store',
+    parser.add_argument('-t', default=float(9.0), action='store',
                         dest='high', type=float, help="pixels high")
-    parser.add_argument('-w', default=float(9.0), action='store',
+    parser.add_argument('-w', default=float(16.0), action='store',
                         dest='wide', type=float, help="pixels wide")
     parser.add_argument('-s', default=float(24.0), action='store',
                         dest='size', type=float, help="physical diagonal")
